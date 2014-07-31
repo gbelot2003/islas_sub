@@ -67,14 +67,12 @@
 	background:rgba(239, 198, 68, 0.5) !important;
 }
 
-
-
 .field-name-share {
-	rgba(239, 198, 68,0.5) !important
+	rgba(239, 198, 68,0.5) !important;
 }
 
 .explora {
-	/* color: #ff9e00; //defecto */
+	color:rgb(239, 198, 68);
 }
 
 .portal {
@@ -83,7 +81,7 @@
 }
 
 .guara {
-	color: rgb(239, 198, 68) !important;
+	color:rgb(255, 158, 0) !important;
 	/*color del portal lleva imagen de HondurasGuara*/
 }
 
@@ -1750,13 +1748,30 @@ a.transportes {
 	margin: 0 !important;
 }
 
+/********************  CROP Hotel  *********************************/
+
 .cuarter img {
-	height: 150px;
+	margin:-10px -10px -10px -10px !important;
+
+} 
+.half img {
+	margin:-50px -10px -50px -10px !important;
+
+}
+/**************************CROP************************************/
+.crop {
+	float:center;
+ 	margin:.5em 0px .5em 0;
+ 	overflow:hidden !important; /* IMPORTANTE */
+} 
+.crop img {
+ margin:-10px -10px -10px -10px;
+}
+.crop p {
+ margin:-10px -10px -10px -10px;
 } 
 
-.half img {
-	height: 200px;
-}
+/**************************END************************************/
 
 .node-type-blog .cuarter img {
 	height: auto;
